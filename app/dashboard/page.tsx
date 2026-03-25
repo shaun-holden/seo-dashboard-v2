@@ -1,3 +1,5 @@
+import KeywordTable from '@/components/dashboard/KeywordTable'
+
 export default function DashboardPage() {
   return (
     <div>
@@ -19,10 +21,7 @@ export default function DashboardPage() {
         ))}
       </div>
 
-      <div className="bg-gray-900 border border-gray-800 rounded-xl p-6">
-        <h2 className="text-white font-semibold mb-4">Top Keywords</h2>
-        <p className="text-gray-500 text-sm">Keyword table coming soon...</p>
-      </div>
+      <KeywordTable />
     </div>
   )
 }
